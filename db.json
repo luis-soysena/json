@@ -1,20 +1,250 @@
 {
-    "reports" : [
+    "reports": [
         {
-            "id" : 2162877,
-            "name" : "Vet Associates of Jacaranda",
-            "description" : "This is a demo report",
+            "id": 1,
+            "customer_id": 2162877,
+            "customer_name": "Vet Associates of Jacaranda",
+            "customer_type": "Premier Clinic",
+            "summary_description": "This is a demo report",
             "created_at": "11/30/2024",
             "updated_at": "12/02/2024",
-            "date_period": "01/01/2023 - 03/31/2023"
-        },
-        {
-            "id" : 2165645,
-            "name" : "Vet Associates of Jacaranda 2",
-            "description" : "This is a report sample",
-            "created_at": "12/01/2024",
-            "updated_at": "12/02/2024",
-            "date_period": "09/01/2023 - 12/31/2023"
+            "start_date": "01/01/2023",
+            "end_date": "03/31/2023",
+            "total_partnership": 12103.20,
+            "price_settings": {
+                "strategy": "MSRP",
+                "custom_percent": 0
+            },
+            "tabs": {
+                "clinic_staff_services": {
+                    "name": "Clinic and Staff Services",
+                    "active": true,
+                    "description": "",
+                    "sections": [
+                        {
+                            "name": "Clinic and Staff Partnership",
+                            "description": "",
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "Staff / Veterinarian CE Value",
+                                    "help_text": "",
+                                    "total": 2403320.20,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 2,
+                                    "active": true,
+                                    "name": "Staff Breakfast / Lunches",
+                                    "help_text": "",
+                                    "total": 1302980.77,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 3,
+                                    "active": true,
+                                    "name": "Staff Rewards and Dispensing Programs",
+                                    "help_text": "",
+                                    "total": 3112420.99,
+                                    "custom": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "pet_owners_perks": {
+                    "name": "Pet Owner Perks",
+                    "enable": true,
+                    "description": "",
+                    "sections": [
+                        {
+                            "name": "Dog Owners",
+                            "rebates": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "NexGard® PLUS (afoxolaner, moxidectin, and pyrantel chewable tablets)",
+                                    "total": 2403320.20,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 2,
+                                    "active": true,
+                                    "name": "NexGard® (afoxolaner) Chewables",
+                                    "total": 1302980.77,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 3,
+                                    "active": true,
+                                    "name": "HEARTGARD® Plus (ivermectin/pyrantel)",
+                                    "total": 3112420.99,
+                                    "custom": false
+                                }
+                            ],
+                            "benefits": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "Dispensing Programs",
+                                    "help_text": "This is a help text",
+                                    "total": 1112220.89,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 2,
+                                    "active": true,
+                                    "name": "Educational Kits",
+                                    "help_text": "Suspendisse dictum suscipit tortor ac sodales. Ut blandit neque ac massa venenatis, et volutpat eros",
+                                    "total": 4177420.89,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 3,
+                                    "active": true,
+                                    "name": "Pet Owner Gifts/Purchases",
+                                    "help_text": "This is a help text",
+                                    "total": 7112220.79,
+                                    "custom": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cat Owners",
+                            "rebates": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "NexGard® COMBO™ (esafoxolaner, eprinomectin, and praziquantel topical solution)",
+                                    "help_text": "",
+                                    "total": 2403320.20,
+                                    "custom": false
+                                }
+                            ],
+                            "benefits": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "Dispensing Programs",
+                                    "help_text": "This is a help text",
+                                    "total": 1112220.89,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 2,
+                                    "active": true,
+                                    "name": "Educational Kits",
+                                    "help_text": "Suspendisse dictum suscipit tortor ac sodales. Ut blandit neque ac massa venenatis, et volutpat eros",
+                                    "total": 4177420.89,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 3,
+                                    "active": true,
+                                    "name": "Pet Owner Gifts/Purchases",
+                                    "help_text": "This is a help text",
+                                    "total": 7112220.79,
+                                    "custom": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Refill Reminder Coupons",
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "% of Refill Reminder Coupons Redeemed",
+                                    "help_text": "This is a help text",
+                                    "percent": 30.3,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 2,
+                                    "active": true,
+                                    "name": "Previous Year",
+                                    "help_text": "",
+                                    "percent": 20.3,
+                                    "custom": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "potential_revenue": {
+                    "name": "Potential Revenue",
+                    "active": true,
+                    "description": "",
+                    "sections": [
+                        {
+                            "active": true,
+                            "id": 1,
+                            "name": "Dog",
+                            "products": [
+                                {
+                                    "id": 1,
+                                    "name": "NexGard® PLUS (afoxolaner, moxidectin, and pyrantel chewable tablets)",
+                                    "doses": 103,
+                                    "protected": 443,
+                                    "revenue": 24039548.94
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "NexGard® (afoxolaner) Chewables",
+                                    "doses": 103,
+                                    "protected": 443,
+                                    "revenue": 24039548.94
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "HEARTGARD® Plus (ivermectin/pyrantel)",
+                                    "doses": 103,
+                                    "protected": 443,
+                                    "revenue": 24039548.94
+                                }
+                            ]
+                        },
+                        {
+                            "active": true,
+                            "id": 2,
+                            "name": "Cat",
+                            "products": [
+                                {
+                                    "id": 1,
+                                    "name": "NexGard® COMBO™",
+                                    "doses": 333,
+                                    "protected": 101,
+                                    "revenue": 4532994.43
+                                }
+                            ]
+                        },
+                        {
+                            "active": true,
+                            "id": 3,
+                            "name": "Home Delivery",
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "name": "Current Year",
+                                    "total": 4053023.88
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Previous Year",
+                                    "total": 3053023.21
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "programs_promotions": {
+                    "name": "Programs and Promotions",
+                    "active": true,
+                    "description": "",
+                    "sections": []
+                }
+            }
         }
     ]
 }
