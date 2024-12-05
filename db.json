@@ -2,7 +2,7 @@
     "reports" : [
         {
             "id" : 2162877,
-            "name" : "Vet Demo",
+            "name" : "Vet Associates of Jacaranda",
             "description" : "This is a demo report",
             "created_at": "11/30/2024",
             "updated_at": "12/02/2024",
@@ -10,7 +10,7 @@
         },
         {
             "id" : 2165645,
-            "name" : "Vet Demo 2",
+            "name" : "Vet Associates of Jacaranda 2",
             "description" : "This is a report sample",
             "created_at": "12/01/2024",
             "updated_at": "12/02/2024",
