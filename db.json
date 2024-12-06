@@ -5,25 +5,40 @@
             "customer_id": 2162877,
             "customer_name": "Vet Associates of Jacaranda",
             "customer_type": "Premier Clinic",
-            "summary_description": "This is a demo report",
+            "summary_description": "This is a demo report for Vet Associates of Jacaranda.",
             "created_at": "11/30/2024",
             "updated_at": "12/02/2024",
             "start_date": "01/01/2023",
             "end_date": "03/31/2023",
             "total_partnership": 12103.20,
-            "price_settings": {
-                "strategy": "MSRP",
-                "custom_percent": 0
-            },
             "tabs": {
                 "clinic_staff_services": {
                     "name": "Clinic and Staff Services",
                     "active": true,
                     "description": "",
+                    "total": 57643829.89,
                     "sections": [
                         {
+                            "active": true,
+                            "name": "Premium Partnership Benefits",
+                            "description": "",
+                            "total": 3403320.20,
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "Premier",
+                                    "help_text": "This is a help text",
+                                    "total": 3403320.20,
+                                    "custom": false
+                                }
+                            ]
+                        },
+                        {
+                            "active": true,
                             "name": "Clinic and Staff Partnership",
                             "description": "",
+                            "total": 3939248.34,
                             "items": [
                                 {
                                     "id": 1,
@@ -50,13 +65,62 @@
                                     "custom": false
                                 }
                             ]
+                        },
+                        {
+                            "active": true,
+                            "name": "Client Value-Add Services",
+                            "description": "",
+                            "total": 4939248.33,
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "active": true,
+                                    "name": "Greenline Service",
+                                    "help_text": "",
+                                    "total": 2403320.20,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 2,
+                                    "active": true,
+                                    "name": "Healthy Habit Kits",
+                                    "help_text": "",
+                                    "total": 1302980.77,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 3,
+                                    "active": true,
+                                    "name": "On-demand CEs",
+                                    "help_text": "",
+                                    "total": 3112420.99,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 4,
+                                    "active": true,
+                                    "name": "Client Connection",
+                                    "help_text": "",
+                                    "total": 3112420.99,
+                                    "custom": false
+                                },
+                                {
+                                    "id": 5,
+                                    "active": true,
+                                    "name": "Promoboxx",
+                                    "help_text": "",
+                                    "total": 3112420.99,
+                                    "custom": false
+                                }
+                            ]
                         }
                     ]
                 },
                 "pet_owners_perks": {
                     "name": "Pet Owner Perks",
-                    "enable": true,
+                    "active": true,
                     "description": "",
+                    "total": 84734958.99,
                     "sections": [
                         {
                             "name": "Dog Owners",
@@ -176,6 +240,10 @@
                     "name": "Potential Revenue",
                     "active": true,
                     "description": "",
+                    "price_settings": {
+                        "strategy": "MSRP",
+                        "custom_percent": 0
+                    },
                     "sections": [
                         {
                             "active": true,
@@ -242,7 +310,168 @@
                     "name": "Programs and Promotions",
                     "active": true,
                     "description": "",
-                    "sections": []
+                    "sections": [
+                        {
+                            "active": true,
+                            "id": 1,
+                            "name": "PPP Category Rebates",
+                            "total": 14394503.32,
+                            "current_period": {
+                                "active": true,
+                                "items": [
+                                    {
+                                        "active": true,
+                                        "id": 1,
+                                        "name": "Parasiticides",
+                                        "total": 4939203.54
+                                    },
+                                    {
+                                        "active": true,
+                                        "id": 2,
+                                        "name": "Vaccines",
+                                        "total": 1939203.14
+                                    },
+                                    {
+                                        "active": true,
+                                        "id": 3,
+                                        "name": "Therapeutics",
+                                        "total": 3939203.11
+                                    }
+                                ]
+                            },
+                            "same_period_last_year": {
+                                "active": true,
+                                "items": [
+                                    {
+                                        "active": true,
+                                        "id": 1,
+                                        "name": "Parasiticides",
+                                        "total": 4939203.54
+                                    },
+                                    {
+                                        "active": true,
+                                        "id": 2,
+                                        "name": "Vaccines",
+                                        "total": 1939203.14
+                                    },
+                                    {
+                                        "active": true,
+                                        "id": 3,
+                                        "name": "Therapeutics",
+                                        "total": 3939203.11
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "active": true,
+                            "id": 2,
+                            "name": "PPP Cross-Portfolio Rebate",
+                            "total": 4938482.76
+                        },
+                        {
+                            "active": true,
+                            "id": 3,
+                            "name": "PPP Growth Rebate",
+                            "total": 4938482.76,
+                            "items": [
+                                {
+                                    "active": true,
+                                    "id": 1,
+                                    "name": "Parasiticides",
+                                    "total": 4939203.54
+                                },
+                                {
+                                    "active": true,
+                                    "id": 2,
+                                    "name": "Vaccines",
+                                    "total": 1939203.14
+                                },
+                                {
+                                    "active": true,
+                                    "id": 3,
+                                    "name": "Therapeutics",
+                                    "total": 3939203.11
+                                },
+                                {
+                                    "active": true,
+                                    "id": 4,
+                                    "name": "Current Growth",
+                                    "total": 4
+                                }
+                            ]
+                        },
+                        {
+                            "active": true,
+                            "id": 4,
+                            "name": "Price-Lock Savings",
+                            "total": 1938482.76
+                        },
+                        {
+                            "active": true,
+                            "id": 5,
+                            "name": "BI-CONNECT™ 2% Savings",
+                            "total": 41933282.76,
+                            "items": [
+                                {
+                                    "active": true,
+                                    "id": 1,
+                                    "name": "2024 Rebate",
+                                    "total": 1939203.54
+                                },
+                                {
+                                    "active": true,
+                                    "id": 2,
+                                    "name": "2025 Discount",
+                                    "total": 939203.14
+                                }
+                            ]
+                        },
+                        {
+                            "active": true,
+                            "id": 6,
+                            "name": "Strategic Buying Groups Bonus",
+                            "total": 4938482.76
+                        },
+                        {
+                            "active": true,
+                            "id": 5,
+                            "name": "Additional Rebates",
+                            "total": 41933282.76,
+                            "items": [
+                                {
+                                    "active": true,
+                                    "id": 1,
+                                    "name": "Rebate name",
+                                    "total": 139203.54
+                                },
+                                {
+                                    "active": true,
+                                    "id": 2,
+                                    "name": "Rebate name",
+                                    "total": 543203.87
+                                },
+                                {
+                                    "active": true,
+                                    "id": 3,
+                                    "name": "Rebate name",
+                                    "total": 139203.67
+                                },
+                                {
+                                    "active": true,
+                                    "id": 4,
+                                    "name": "Rebate name",
+                                    "total": 32203.43
+                                },
+                                {
+                                    "active": true,
+                                    "id": 5,
+                                    "name": "Rebate name",
+                                    "total": 79203.77
+                                }
+                            ]
+                        }
+                    ]
                 }
             }
         }
